@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Bango";
+    src: url("fonts/bango.woff2") format("woff2"),
+         url("fonts/bango.woff") format("woff"),
+         url("fonts/bango.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0072bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    background: white;
+    padding: 2rem;
+    max-width: 375px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px 0px #124d7a;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Bango", Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #000;
+  }
+
+  .btn-age {
+    font-family: "Bango", Arial, sans-serif !important;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2 !important;
+    text-transform: none !important;
+    color: #000 !important;
+    background: #fff;
+    padding: 16px 24px;
+    margin: 12px 0;
+    border: 2px solid #000;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px 0px #000;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    cursor: pointer;
+  }
